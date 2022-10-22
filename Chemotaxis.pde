@@ -22,7 +22,7 @@ void draw() {
 
 
 class Bacteria {//lots of java!
-   int startX, startY, ranX, ranY, color;
+   int startX, startY, ranX, ranY, Color;
    Bacteria() {
    Color = color((int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random*256));
    startX = 400;
